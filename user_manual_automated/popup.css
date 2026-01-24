@@ -1,0 +1,163 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 320px;
+  min-height: 400px;
+  background: #fafafa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  color: #2c2c2c;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+/* Title section */
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #1a1a1a;
+  letter-spacing: -0.01em;
+}
+
+/* Capture modes container */
+.capture-modes {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+/* Capture mode cards */
+.capture-card {
+  display: flex;
+  align-items: center;
+  padding: 14px 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  background: #ffffff;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.capture-card:hover {
+  background: #f8f9fa;
+  border-color: #d0d0d0;
+}
+
+.capture-card .icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.capture-card .content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.capture-card .label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #1a1a1a;
+  margin-bottom: 3px;
+  line-height: 1.4;
+}
+
+.capture-card .subtitle {
+  font-size: 11px;
+  color: #6b6b6b;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+/* Divider */
+.divider {
+  height: 1px;
+  background: #e5e5e5;
+  margin: 24px 0;
+  border: none;
+}
+
+/* Recording controls container */
+.recording-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Base button styles */
+.btn {
+  padding: 11px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: inherit;
+  line-height: 1.4;
+}
+
+.btn:focus {
+  outline: 2px solid #4a90e2;
+  outline-offset: 2px;
+}
+
+/* Primary button (Start Recording) */
+.btn-primary {
+  background: #4a90e2;
+  color: #ffffff;
+  box-shadow: 0 1px 2px rgba(74, 144, 226, 0.2);
+}
+
+.btn-primary:hover {
+  background: #3a7bc8;
+}
+
+/* Secondary buttons (Pause, Screenshot) */
+.btn-secondary {
+  background: #ffffff;
+  color: #2c2c2c;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.btn-secondary:hover {
+  background: #f8f9fa;
+  border-color: #d0d0d0;
+}
+
+/* Danger button (Stop Recording) */
+.btn-danger {
+  background: #ffffff;
+  color: #d32f2f;
+  border: 1px solid #e5e5e5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+.btn-danger:hover {
+  background: #fff5f5;
+  border-color: #ffcdd2;
+}
+
+/* Button icon */
+.btn-icon {
+  font-size: 14px;
+  line-height: 1;
+}

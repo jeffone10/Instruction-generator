@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Extension Popup</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <h1 class="title">Choose an option</h1>
+
+  <div class="capture-modes">
+    <div class="capture-card" data-mode="full-page">
+      <span class="icon">📄</span>
+      <div class="content">
+        <span class="label">Capture Full Page</span>
+      </div>
+    </div>
+
+    <div class="capture-card" data-mode="select-element">
+      <span class="icon">🎯</span>
+      <div class="content">
+        <span class="label">Select Element</span>
+      </div>
+    </div>
+
+    <div class="capture-card" data-mode="crop-area">
+      <span class="icon">✂️</span>
+      <div class="content">
+        <span class="label">Crop Area</span>
+        <span class="subtitle">Loose conversion</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="recording-controls">
+    <button id="btn-start-recording" type="button" class="btn btn-primary">
+      <span class="btn-icon">▶️</span>
+      <span>Start Recording</span>
+    </button>
+
+    <button id="btn-pause-recording" type="button" class="btn btn-secondary">
+      <span class="btn-icon">⏸️</span>
+      <span>Pause Recording</span>
+    </button>
+
+    <button id="btn-stop-recording" type="button" class="btn btn-danger">
+      <span class="btn-icon">⏹️</span>
+      <span>Stop Recording</span>
+    </button>
+
+    <button id="btn-capture-screenshot" type="button" class="btn btn-secondary">
+      <span class="btn-icon">📷</span>
+      <span>Capture Screenshot</span>
+    </button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
